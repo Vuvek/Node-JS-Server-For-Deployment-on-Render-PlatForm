@@ -1,6 +1,6 @@
 // Simple HTTP Server
 
-const http = require('node:http')
+const http = require('http')
 
 const server =  http.createServer((req,res) => {
     res.writeHead(201,{"Content-Type" : "text/html"});
